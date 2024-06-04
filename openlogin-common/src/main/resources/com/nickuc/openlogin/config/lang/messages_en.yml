@@ -12,16 +12,16 @@ Messages:
   Title:
     # Message sent before login
     before-login:
-      title: "&a&lWELCOME!"
-      subtitle: "&7Use: /login <your password>"
+      title: "&aLog in"
+      subtitle: "&a/login <your password>"
       delays:
         start: 0
         duration: 9999
         end: 6
     # Message sent before registration
     before-register:
-      title: "&a&lWELCOME!"
-      subtitle: "&7Use: /register <your password> <your password>"
+      title: "&eRegister"
+      subtitle: "&a/register <your password> <your password>"
       delays:
         start: 0
         duration: 9999
@@ -29,7 +29,7 @@ Messages:
     # Message sent after login
     after-login:
       title: ""
-      subtitle: "&aYou have successfully logged in!"
+      subtitle: "&eYou have successfully logged in!"
       delays:
         start: 0
         duration: 60
@@ -37,7 +37,7 @@ Messages:
     # Message sent after register
     after-register:
       title: ""
-      subtitle: "&aYou have successfully registered!"
+      subtitle: "&eYou have successfully registered!"
       delays:
         start: 0
         duration: 60
@@ -55,10 +55,10 @@ Messages:
     password-changed: "&aYour password has been successfully changed."
 
     # Message sent when a user successfully logs
-    successful-login: "&aYou have successfully logged."
+    successful-login: "&aYou have successfully logged in."
 
     # Message sent when a user successfully registers
-    successful-register: "&aYou have successfully registered."
+    successful-register: "&eYou have successfully registered."
 
     # Message sent when a player successfully disregisters
     unregister-kick: "&cYou have successfully unregistered."
@@ -71,7 +71,7 @@ Messages:
     failed-many-times: "&cYou entered the incorrect password."
 
     # Message sent when password entered is incorrect
-    incorrect-password: "&cIncorrect password. Please, try again."
+    incorrect-password: "&eYour password is incorrect"
 
     # Message sent when a player enters an invalid nickname.
     invalid-nickname: "&cSorry, but you are using an invalid nickname."
